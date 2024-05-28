@@ -1,0 +1,35 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face{
+	font-family: mono;
+	src: url(../fonts/IBMPlexMono-ExtraLight.ttf);
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 60px;
+}
+
+.description {
+	font-family: mono;
+	font-size: 25;
+	width: 70%;
+}
+
+.tags {
+	font-family: mono;
+	font-size: 20;
+}
+
+.tags a {
+	text-decoration: none;
+	color: #818181;
+	transition: 0.25s;
+}
+
+.tags a:hover {
+	color: black;
+}
